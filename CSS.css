@@ -1,0 +1,41 @@
+.Tudo{
+    text-align: center;
+}
+
+#BoxClose{
+    text-align: center;
+}
+
+h1{
+    transition: 1s;
+    font-size: 60px;
+    font-family: cursive;
+    animation: Texto 5s infinite linear;
+}
+
+@keyframes Texto {
+    0%{
+        transform: rotate(0deg);
+        color: blue;
+    }
+
+    25%{
+        transform: rotate(2deg);
+        color: aqua;
+    }
+    
+    50%{
+        transform: rotate(0deg);
+        color: cadetblue;
+    }
+
+    75%{
+        transform: rotate(-2deg);
+        color: aquamarine;
+    }
+
+    100%{
+        transform: rotate(0deg);
+        color: blue;
+    }
+}
